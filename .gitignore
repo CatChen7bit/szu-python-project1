@@ -1,0 +1,21 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# ===== 课程大文件 / 答案文件（体积或答案泄漏） =====
+# 326 MB 的视觉权重，超过 GitHub 单文件限制，按 README 从课程附件获取
+weights/*.npz
+# 参考输出是验收答案，不纳入仓库
+assets/reference_outputs.npz
+output_tokens.npz
+*.npz
+
+# ===== 临时文件 =====
+_tmp/
+REPORT_OUTLINE.md
+*.log
+.DS_Store
+Thumbs.db
