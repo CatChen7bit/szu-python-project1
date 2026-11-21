@@ -19,3 +19,13 @@ REPORT_OUTLINE.md
 *.log
 .DS_Store
 Thumbs.db
+.vscode/
+
+# ===== 实验报告（含个人信息，只在畅课平台提交） =====
+report/
+
+# ===== 课程原始附件（不纳入项目源码） =====
+PPT-CODE-MAP.txt
+SOURCE-MANIFEST.json
+lecture-demos/
+practice/
